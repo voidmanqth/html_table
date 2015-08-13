@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>B2C</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+function clear(){
+
+document.form1.webUserEntity.name="";
+document.form1.webUserEntity.address="";
+document.form1.webUserEntity.postcode="";
+document.form1.webUserEntity.phone="";
+}
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<iframe src="top.htm" frameborder="0" marginheight="0" marginwidth="0" width="770" height="130" scrolling="no"></iframe>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="yrh">
+  <tr>
+    <td height="17"><a href="home.htm">主页</a> &raquo; 历史交易查询</td>
+  </tr>
+</table>
+<table width="770" border="0" cellpadding="0" cellspacing="0" class="main">
+<tr valign="top">
+<td><form action="" method="post" enctype="multipart/form-data" name="form1">
+  <table width="100%" border="0" cellpadding="2" cellspacing="1" class="inputTable">
+    
+    
+    <tr>
+      <td class="inputTitle">历史交易查询</td>
+    </tr>
+    <tr>
+      <td>
+        <table width="100%" border="0" cellpadding="0" cellspacing="1" class="inputbox">
+          <tr>
+            <td width="4%" class="inputHeader">&nbsp;</td>
+            <td width="17%" class="inputHeader">起始时间：</td>
+            <td width="38%" class="inputContent"><select name="year">
+              <option>2007</option>
+              <option>2006</option>
+              
+            </select>&nbsp;&nbsp;年&nbsp;&nbsp;
+			<select name="month">
+              <option>01</option>
+              <option>02</option>
+               <option>03</option>
+              <option>04</option>
+			  <option>05</option>
+              <option>06</option>
+            </select>&nbsp;&nbsp;
+			月&nbsp;&nbsp;
+			<select name="day">
+              <option>01</option>
+              <option>02</option>
+               <option>03</option>
+              <option>04</option>
+			  <option>05</option>
+              <option>06</option>              
+            </select>&nbsp;&nbsp;日			</td>
+            <td width="41%" class="inputContent">&nbsp;</td>
+          </tr>
+		  
+          <tr>
+            <td class="inputHeader">&nbsp;</td>
+            <td class="inputHeader">结束时间：</td>
+            <td class="inputContent">
+			<select name="year">
+              <option>2007</option>
+              <option>2006</option>
+            </select>&nbsp;&nbsp;年&nbsp;&nbsp;
+			<select name="month">
+              <option>01</option>
+              <option>02</option>
+               <option>03</option>
+              <option>04</option>
+			  <option>05</option>
+              <option>06</option>
+            </select>&nbsp;&nbsp;
+			月&nbsp;&nbsp;
+			<select name="day">
+              <option>01</option>
+              <option>02</option>
+               <option>03</option>
+              <option>04</option>
+			  <option>05</option>
+              <option>06</option>              
+            </select>&nbsp;&nbsp;日		      </td>
+            <td class="inputContent"><font color="#CC0000">&nbsp;</font></td>
+          </tr>
+          <tr>
+            <td class="inputHeader">&nbsp;</td>
+            <td class="inputHeader">订单状态：</td>
+            <td class="inputContent">
+              <select name="year">
+              <option>已支付</option>
+              <option>未支付</option>
+            </select>            </td>
+            <td class="inputContent">&nbsp;</td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr>
+            <td width="4%" class="inputContent">&nbsp;</td>
+            <td width="17%" class="inputHeader">&nbsp;</td>
+            <td width="39%" class="inputContent">
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<input type="Button" class="bt2" name="button2" value="查询" onClick="javascript:window.location.href='order_list.htm'">
+&nbsp;
+&nbsp;
+&nbsp;</td>
+            <td width="40%" class="inputContent">&nbsp;</td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  </form>  
+</td>
+</tr>
+</table>
+<!-- #BeginLibraryItem "/Library/footer.lbi" -->
+<iframe src="bottom.htm" frameborder="0" marginheight="0" marginwidth="0" width="770" height="130" scrolling="no"></iframe>
+<!-- #EndLibraryItem --></body>
+</html>

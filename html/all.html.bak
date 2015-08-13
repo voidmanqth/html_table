@@ -1,0 +1,20 @@
+<html>
+<head>
+  <script type="text/javascript">
+var a1=1;
+var a2=123;
+var a3;
+a3=a1+a2;
+ window.alert("½á¹ûÊÇ"+a3);
+  </script>
+</head>
+
+<frameset rows="20%,80%">
+<frame src="top.html" scrolling="no" noresize>
+<frameset cols="20%,80%">
+<frame src="left.html" noresize>
+<frame src="right.html" name=right>
+</frameset>
+</frameset>
+
+</html>
